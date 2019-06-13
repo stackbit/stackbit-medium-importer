@@ -1,0 +1,35 @@
+{
+  "name": "@stackbit/stackbit-medium-importer",
+  "version": "0.1.0",
+  "description": "Stackbit Medium Importer",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Stackbit",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "gray-matter": "^4.0.2",
+    "js-yaml": "^3.12.2",
+    "lodash": "^4.17.11",
+    "p-all": "^2.0.0",
+    "sanitize-html": "^1.20.0",
+    "turndown": "^5.0.3",
+    "unzipper": "^0.9.11",
+    "url-parse": "^1.4.4",
+    "yargs": "^13.2.2"
+  },
+  "repository": {
+    "url": "https://github.com/stackbithq/stackbit-medium-importer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stackbithq/gatsby-plugin-menus/issues"
+  },
+  "bin": {
+    "medium-importer": "./scripts/import-external.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
