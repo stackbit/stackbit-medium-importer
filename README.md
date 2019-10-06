@@ -81,12 +81,10 @@ Extraced information in `JSON` format:
     "avatar": "images/avatar.png"
   },
   "social": {
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://twitter.com/@myuser"
-      }
-    ]
+    "twitter": {
+      "username": "@myuser",
+      "url": "https://twitter.com/@myuser"
+    }
   }
 ```
 

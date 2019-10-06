@@ -134,10 +134,10 @@ function processProfile(inputFile, dataFile, assetsDir) {
         data.author.email = profile.email;
     }
     if (profile.twitterUsername) {
-        data.social.links = [{
-            type: 'twitter',
+        data.social.twitter = {
+            username: profile.twitterUsername,
             url: `https://twitter.com/${profile.twitterUsername}`
-        }];
+        };
     }
     
     const avatarUrl = profile.avatarUrl;
